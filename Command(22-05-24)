@@ -10,3 +10,10 @@ List of devices attached
 
 D:\Andriod\platform-tools>adb logcat >logcat_logs.txt
 ^C
+D:\Andriod\platform-tools>adb shell dmesg >dmesg_logs.txt
+dmesg: klogctl: Permission denied
+
+D:\Andriod\platform-tools>adb root
+adbd cannot run as root in production builds
+
+D:\Andriod\platform-tools>
